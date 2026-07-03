@@ -10,8 +10,6 @@ export const Route = createFileRoute("/book")({
     meta: [
       { title: "Book a Consultation — Tripple S Spa" },
       { name: "description", content: "Reserve your consultation at Tripple S Spa. Select treatments, choose a time, and confirm payment via WhatsApp." },
-      { property: "og:title", content: "Book a Consultation — Tripple S Spa" },
-      { property: "og:url", content: "/book" },
       { name: "robots", content: "noindex" },
     ],
     links: [{ rel: "canonical", href: "/book" }],
