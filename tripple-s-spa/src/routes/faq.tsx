@@ -8,8 +8,6 @@ export const Route = createFileRoute("/faq")({
     meta: [
       { title: "FAQ — Tripple S Spa" },
       { name: "description", content: "Answers to common questions about treatments, safety, IV drips, consultations, payments and aftercare." },
-      { property: "og:title", content: "FAQ — Tripple S Spa" },
-      { property: "og:url", content: "/faq" },
     ],
     links: [{ rel: "canonical", href: "/faq" }],
   }),
