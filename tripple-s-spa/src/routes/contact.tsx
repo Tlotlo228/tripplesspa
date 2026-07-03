@@ -8,8 +8,6 @@ export const Route = createFileRoute("/contact")({
     meta: [
       { title: "Contact — Tripple S Spa" },
       { name: "description", content: "Visit Tripple S Spa at Plot 943, Kaunda Road, Gaborone. Reach us on WhatsApp, Instagram or Facebook." },
-      { property: "og:title", content: "Contact — Tripple S Spa" },
-      { property: "og:url", content: "/contact" },
     ],
     links: [{ rel: "canonical", href: "/contact" }],
   }),
