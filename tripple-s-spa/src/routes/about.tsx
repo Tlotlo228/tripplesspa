@@ -7,8 +7,6 @@ export const Route = createFileRoute("/about")({
     meta: [
       { title: "About — Tripple S Spa" },
       { name: "description", content: "Discover the philosophy, medical oversight and personalised care behind Tripple S Spa in Gaborone." },
-      { property: "og:title", content: "About Tripple S Spa" },
-      { property: "og:url", content: "/about" },
     ],
     links: [{ rel: "canonical", href: "/about" }],
   }),
