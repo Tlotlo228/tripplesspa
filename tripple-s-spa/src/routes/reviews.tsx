@@ -7,8 +7,6 @@ export const Route = createFileRoute("/reviews")({
     meta: [
       { title: "Client Reviews — Tripple S Spa" },
       { name: "description", content: "Read authentic experiences from clients of Tripple S Spa in Gaborone." },
-      { property: "og:title", content: "Reviews — Tripple S Spa" },
-      { property: "og:url", content: "/reviews" },
     ],
     links: [{ rel: "canonical", href: "/reviews" }],
   }),
