@@ -8,8 +8,6 @@ export const Route = createFileRoute("/treatments")({
     meta: [
       { title: "Treatments & Pricing — Tripple S Spa" },
       { name: "description", content: "Explore our full menu of IV drips, medical aesthetics, skin treatments, body contouring and wellness services with transparent pricing." },
-      { property: "og:title", content: "Treatments & Pricing — Tripple S Spa" },
-      { property: "og:url", content: "/treatments" },
     ],
     links: [{ rel: "canonical", href: "/treatments" }],
   }),
