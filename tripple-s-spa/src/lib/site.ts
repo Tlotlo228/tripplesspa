@@ -11,8 +11,8 @@ export const SITE = {
   instagram: "https://instagram.com/",
   facebook: "https://facebook.com/",
   hours: [
-    { day: "Mon – Fri", time: "9:00 – 19:00" },
-    { day: "Saturday", time: "9:00 – 17:00" },
+    { day: "Mon – Fri", time: "8:00 – 17:00" },
+    { day: "Saturday", time: "8:00 – 17:00" },
     { day: "Sunday", time: "By appointment" },
   ],
 };
