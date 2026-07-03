@@ -80,11 +80,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Tripple S Spa — Medical Aesthetics & Wellness in Gaborone" },
       { name: "description", content: "Doctor-supervised medical aesthetics, IV wellness, skin health and body contouring in Gaborone, Botswana." },
       { name: "author", content: "Tripple S Spa" },
-      { property: "og:title", content: "Tripple S Spa — Where Beauty Meets Medical Excellence" },
-      { property: "og:description", content: "Luxury medical aesthetics, IV drips, skin treatments and body contouring — doctor supervised, personalised care." },
-      { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Tripple S Spa" },
-      { name: "twitter:card", content: "summary_large_image" },
+    
     ],
     links: [
       {
