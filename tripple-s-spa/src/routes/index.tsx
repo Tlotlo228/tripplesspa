@@ -106,6 +106,43 @@ function Index() {
       </section>
 
       {/* TESTIMONIALS */}
+      </section>
+
+{/* SKINCARE PRODUCTS */}
+<section className="mx-auto max-w-6xl px-6 py-16 lg:px-12">
+  <div className="mb-10">
+    <p className="text-xs uppercase tracking-[0.28em] text-[color:var(--gold)]">
+      Skincare Products
+    </p>
+    <h2 className="mt-2 font-display text-3xl text-[color:var(--emerald-deep)]">
+      Medical Grade Skincare
+    </h2>
+  </div>
+
+  <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+    {[
+      { name: "Dark Spot Serum (30ml)", price: "P1,200" },
+      { name: "Vitamin C Serum", price: "P950" },
+      { name: "Complexion Corrector Cream (100ml)", price: "P2,000" },
+      { name: "Anti-Acne Serum (30ml)", price: "P950" },
+      { name: "Retinol Serum (30ml)", price: "P1,300" },
+    ].map((product) => (
+      <article
+        key={product.name}
+        className="rounded-2xl border border-white/60 bg-white/70 p-6 shadow-sm"
+      >
+        <h3 className="font-display text-xl text-[color:var(--emerald-deep)]">
+          {product.name}
+        </h3>
+        <p className="mt-3 text-lg font-semibold text-[color:var(--gold)]">
+          {product.price}
+        </p>
+      </article>
+    ))}
+  </div>
+</section>
+
+{/* TESTIMONIALS */}
       <section className="mx-auto max-w-6xl px-6 py-12 lg:px-12">
         <div className="mb-10 text-center">
           <p className="text-xs uppercase tracking-[0.28em] text-[color:var(--gold)]">Client Voices</p>
