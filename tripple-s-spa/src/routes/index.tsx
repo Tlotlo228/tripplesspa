@@ -146,6 +146,93 @@ function Index() {
           <Link to="/faq" className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-[color:var(--emerald-deep)] underline-offset-4 hover:underline">Read all FAQs <ArrowRight size={14} /></Link>
         </div>
       </section>
+      {/* PRODUCTS */}
+<section className="mx-auto max-w-6xl px-6 py-16 lg:px-12">
+  <div className="text-center mb-10">
+    <p className="text-xs uppercase tracking-[0.28em] text-[color:var(--gold)]">
+      Medical Skincare
+    </p>
+
+    <h2 className="mt-2 font-display text-3xl text-[color:var(--emerald-deep)] sm:text-4xl">
+      Professional Products
+    </h2>
+
+    <p className="mt-3 max-w-2xl mx-auto text-[color:var(--muted-foreground)]">
+      Continue your skincare journey at home with our professional medical-grade products.
+    </p>
+  </div>
+
+  <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+    {[
+      {
+        name: "Dark Spot Serum",
+        size: "30ml",
+        price: "P1,200",
+        desc: "Targets hyperpigmentation and uneven skin tone."
+      },
+      {
+        name: "Vitamin C Serum",
+        size: "30ml",
+        price: "P950",
+        desc: "Brightens skin while protecting against free radicals."
+      },
+      {
+        name: "Complexion Corrector Cream",
+        size: "100ml",
+        price: "P2,000",
+        desc: "Medical-grade cream for improving skin texture and complexion."
+      },
+      {
+        name: "Anti-Acne Serum",
+        size: "30ml",
+        price: "P950",
+        desc: "Helps reduce acne breakouts and inflammation."
+      },
+      {
+        name: "Retinol Serum",
+        size: "30ml",
+        price: "P1,300",
+        desc: "Promotes smoother, younger-looking skin."
+      }
+    ].map((product) => (
+      <div
+        key={product.name}
+        className="rounded-2xl border border-white/60 bg-white/70 p-6 backdrop-blur-md shadow-sm hover:shadow-luxe transition"
+      >
+        <div className="h-44 rounded-xl bg-[color:var(--champagne)]/40 flex items-center justify-center">
+          <Sparkles size={42} className="text-[color:var(--gold)]" />
+        </div>
+
+        <h3 className="mt-5 font-display text-xl text-[color:var(--emerald-deep)]">
+          {product.name}
+        </h3>
+
+        <p className="text-sm text-[color:var(--muted-foreground)]">
+          {product.size}
+        </p>
+
+        <p className="mt-3 text-sm text-[color:var(--muted-foreground)]">
+          {product.desc}
+        </p>
+
+        <div className="mt-5 flex items-center justify-between">
+          <span className="font-bold text-lg text-[color:var(--emerald-deep)]">
+            {product.price}
+          </span>
+
+          <Link
+            to="/contact"
+            className="rounded-full bg-[color:var(--emerald-deep)] px-4 py-2 text-white text-sm hover:opacity-90"
+          >
+            Enquire
+          </Link>
+        </div>
+      </div>
+    ))}
+
+  </div>
+</section>
 
       {/* CTA */}
       <section className="mx-auto max-w-6xl px-6 pb-24 lg:px-12">
