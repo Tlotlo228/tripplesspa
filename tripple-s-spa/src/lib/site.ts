@@ -59,9 +59,9 @@ export const TREATMENTS: Treatment[] = [
   { id: "sk-derma", category: "Skin Treatments", name: "Dermaplaning", price: 500, duration: 30 },
   { id: "sk-tag", category: "Skin Treatments", name: "Skin Tag Removal", price: "500 – 1800", duration: 30, note: "Priced per assessment" },
   // Body Contouring
-  { id: "bc-l10", category: "Body Contouring", name: "Lipolytic Injections — 10 Sessions", price: 1500, duration: 45 },
-  { id: "bc-l20", category: "Body Contouring", name: "Lipolytic Injections — 20 Sessions", price: 2000, duration: 45 },
-  { id: "bc-l30", category: "Body Contouring", name: "Lipolytic Injections — 30 Sessions", price: 3000, duration: 45 },
+  { id: "bc-l10", category: "Body Contouring", name: "Lipolytic Injections — 10 Injections", price: 1500, duration: 45 },
+  { id: "bc-l20", category: "Body Contouring", name: "Lipolytic Injections — 20 Injections", price: 2000, duration: 45 },
+  { id: "bc-l30", category: "Body Contouring", name: "Lipolytic Injections — 30 Injections", price: 3000, duration: 45 },
   // Wellness
   { id: "we-sauna-45", category: "Wellness", name: "Sauna Blanket — 45 minutes", price: 300, duration: 45 },
   { id: "we-sauna-60", category: "Wellness", name: "Sauna Blanket — 1 hour", price: 650, duration: 60 },
