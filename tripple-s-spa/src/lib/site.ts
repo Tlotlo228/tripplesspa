@@ -9,7 +9,7 @@ export const SITE = {
   whatsappUrl: (msg: string) =>
     `https://wa.me/26774866703?text=${encodeURIComponent(msg)}`,
   instagram: "https://www.instagram.com/trippleswellnessspa",
-  facebook: "https://www.facebook.com/trippleswellnessspa",
+  facebook: "https://www.facebook.com/share/1bX2px96mj/?mibextid=wwXIfr",
   hours: [
     { day: "Mon – Fri", time: "8:00 – 17:00" },
     { day: "Saturday", time: "8:00 – 17:00" },
