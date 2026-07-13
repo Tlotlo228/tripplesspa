@@ -2,6 +2,20 @@ import { Link } from "@tanstack/react-router";
 import { Instagram, Facebook, MapPin, Phone } from "lucide-react";
 import { LOGO_URL, SITE } from "@/lib/site";
 
+function TikTokIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+    >
+      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
+    </svg>
+  );
+}
+
 export function SiteFooter() {
   return (
     <footer className="mt-24 border-t border-[color:var(--border)] bg-[color:var(--emerald-deep)] text-[color:var(--ivory)]">
@@ -46,6 +60,7 @@ export function SiteFooter() {
             <a aria-label="Instagram" href={SITE.instagram} target="_blank" rel="noreferrer" className="grid h-10 w-10 place-items-center rounded-full bg-white/10 hover:bg-white/20"><Instagram size={16} /></a>
             <a aria-label="Facebook" href={SITE.facebook} target="_blank" rel="noreferrer" className="grid h-10 w-10 place-items-center rounded-full bg-white/10 hover:bg-white/20"><Facebook size={16} /></a>
             <a aria-label="WhatsApp" href={SITE.whatsappUrl("Hello Tripple S Spa, I'd like to enquire about your treatments.")} target="_blank" rel="noreferrer" className="grid h-10 w-10 place-items-center rounded-full bg-white/10 hover:bg-white/20"><Phone size={16} /></a>
+            <a aria-label="TikTok" href="https://www.tiktok.com/@tripple.s.wellnes" target="_blank" rel="noreferrer" className="grid h-10 w-10 place-items-center rounded-full bg-white/10 hover:bg-white/20"><TikTokIcon /></a>
           </div>
         </div>
       </div>
