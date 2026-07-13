@@ -10,6 +10,7 @@ export const SITE = {
     `https://wa.me/26774866703?text=${encodeURIComponent(msg)}`,
   instagram: "https://www.instagram.com/trippleswellnessspa",
   facebook: "https://www.facebook.com/share/1bX2px96mj/?mibextid=wwXIfr",
+  Tiktok: "https://www.tiktok.com/@tripple.s.wellnes?_r=1&_t=ZS-980Pwx4IX12",
   hours: [
     { day: "Mon – Fri", time: "8:00 – 17:00" },
     { day: "Saturday", time: "8:00 – 17:00" },
